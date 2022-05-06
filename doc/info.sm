@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.7822.147"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="120">
+    <identity>
+      <id>b2178af2-fd51-4f55-9774-310c8a8e278d</id>
+      <revision>6</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" viewMode="0" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.7822.147" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.7822.147" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="SpecialFunctions" version="1.12.7822.147" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="PlotRegion" version="1.11.7822.147" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="36" top="27" width="219" height="168" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="operand">b</e>
+          <e type="function" args="2">f</e>
+          <e type="operand">x</e>
+          <e type="operand">0</e>
+          <e type="operator" args="2">≤</e>
+          <e type="operand">0</e>
+          <e type="operand">x</e>
+          <e type="operand">1</e>
+          <e type="operator" args="2">≥</e>
+          <e type="operand">1</e>
+          <e type="operand">1</e>
+          <e type="operand">1</e>
+          <e type="operand">x</e>
+          <e type="operand">1</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">b</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="function" args="3">if</e>
+          <e type="function" args="3">if</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="342" top="81" width="87" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">0</e>
+          <e type="operand">2</e>
+          <e type="function" args="2">f</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="144" width="348" height="175" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="9.84973267580763" scale_y="9.84973267580763" scale_z="9.84973267580763" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-61" transpose_y="-55" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="operand">1.5</e>
+          <e type="function" args="2">f</e>
+        </input>
+      </plot>
+    </region>
+    <region left="45" top="405" width="397" height="45" color="#000000" fontSize="10">
+      <math optimize="2">
+        <input>
+          <e type="operand">t</e>
+          <e type="operand">S</e>
+          <e type="operand">E</e>
+          <e type="operand">T</e>
+          <e type="function" args="4">eps</e>
+          <e type="operand">S</e>
+          <e type="operand">1</e>
+          <e type="operand">t</e>
+          <e type="operand">T</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1.5</e>
+          <e type="function" args="2">f</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">t</e>
+          <e type="operand">T</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1.5</e>
+          <e type="function" args="2">f</e>
+          <e type="operand">E</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="45" top="567" width="466" height="270" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="15.7597299505137" scale_y="15.7597299505137" scale_z="15.7597299505137" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-163" transpose_y="-62" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="operand">0.7</e>
+          <e type="operand">0.1</e>
+          <e type="operand">2</e>
+          <e type="function" args="4">eps</e>
+        </input>
+      </plot>
+    </region>
+    <region left="63" top="882" width="191" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">0</e>
+          <e type="operand">0.7</e>
+          <e type="operand">0.1</e>
+          <e type="operand">2</e>
+          <e type="function" args="4">eps</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.7</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
